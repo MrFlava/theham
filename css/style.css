@@ -269,7 +269,7 @@ body{
 
 .header .navbar .nav .nav-item .nav-link.active, .heaer .navbar .nav .nav-item .nav-link.active:hover, .heaer .navbar .nav .nav-item .nav-link.active:focus{
     color: #18cfab;
-    padding-bottom: 32px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #18cfab;
     background: transparent;
 
