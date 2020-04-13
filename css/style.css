@@ -1,10 +1,6 @@
 
 body{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	line-height: 24px;
-	color: #fff;
-	font-weight: 700;
+
 }
 
 .no-js #loader { display: none;  }
@@ -212,6 +208,11 @@ body{
 }
 
 .header .menu_nav{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+	font-weight: 700;
     width:100%}
 .header .navbar{
     background-color: rgba(77, 58, 35, 0.64);
@@ -264,6 +265,8 @@ body{
     display:none}
 .header .navbar .nav .nav-item:hover .nav-link,
 .header .navbar .nav .nav-item .nav-link.active{
+	 padding-bottom: 30px;
+    border-bottom: 1px solid #18cfab;
     color:#18cfab;
     opacity:1}
 
@@ -273,6 +276,75 @@ body{
     border-bottom: 1px solid #18cfab;
     background: transparent;
 
+}
+
+.container-fluid{
+	padding-right: 0;
+	padding-left: 0;
+	overflow-x: hidden;
+}
+
+.home{
+	position:relative;
+	text-align: center;
+	color: #e9e5db;	
+}
+
+.oneslide img {
+	width: 100%;
+	display: block;
+	position: relative;
+	height: auto;	
+}
+.maincontent{
+	position: absolute;	
+	top: 26%;
+	width: 100%;	
+}
+.maincontent h1{	
+	font-size: 35px;	
+	line-height: 40px;	
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+.maincontent h2{	
+	font-size: 79px;	
+	line-height: 65px;	
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+.maincontent p.headp{	
+	font-size: 34px;	
+	color: #d4d4d4;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+}
+span.theme{
+	color: #18cfab;
+}
+.maincontent button,#portfolio button,aside button,#theme button{
+	outline: 0;
+	border:none;
+	font-size: 13px;
+	width: 166px;
+	height: 60px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #18cfab;
+	border-radius: 5px;
+	border-top: 5px solid #fff;
+	margin: 140px 10px 0;
+}
+.maincontent button.purchase{
+	background-color: #00cbf6;
+}
+.maincontent button.explore:hover,aside button:hover,#theme button:hover{
+	background-color: #00cbf6;
+	transition:all 0.5s;
+}
+.maincontent button.purchase:hover{
+	background-color: #18cfab;
+	transition:all 0.5s;
 }
 
 @keyframes cssload-squaremini {

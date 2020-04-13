@@ -25,3 +25,14 @@ jQuery(document).ready(function ($) {
    $(".nav").find(".active").removeClass("active");
    $(this).addClass("active");
 });
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    pager:false,
+    controls:true,
+    pagerCustom: '#bx-pager1'
+  });
+  $('.bxslider2').bxSlider({
+   pagerCustom: '#bx-pager'
+ });
+});
