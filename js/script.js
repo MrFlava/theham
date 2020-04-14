@@ -25,6 +25,14 @@ jQuery(document).ready(function ($) {
    $(".nav").find(".active").removeClass("active");
    $(this).addClass("active");
 });
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 1){  
+    $('header').addClass("sticky");
+  }
+  else{
+    $('header').removeClass("sticky");
+  }
+});
 
 $(document).ready(function(){
   $('.bxslider').bxSlider({
