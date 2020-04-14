@@ -347,6 +347,33 @@ span.theme{
 	transition:all 0.5s;
 }
 
+.about-element div{
+	width: 100%;
+	float: left;
+	color: #fff;
+	background-color: #18cfab;
+	text-align: center;
+	border-top: 7px solid #fff; 
+	min-height: 365px;
+}
+.about-element{
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+.about-element div img{
+	margin-top: 80px;
+}
+.about-element div.innerlight{
+	color: #18cfab;
+	background-color: #1c2a33;
+	border-top: 7px solid #18cfab; 
+}
+.about-element div. h3{
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-top: 45px;
+}
 @keyframes cssload-squaremini {
 	0%, 100% {
 		transform: translateZ(85px) rotateX(20deg) rotateY(-10deg) rotateZ(10deg);
