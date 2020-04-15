@@ -576,7 +576,7 @@ p.tabp{
 	margin-left: 15px;
 	
 }
-/*.skillbar {  
+.skillbar {  
 	position:relative;  
 	display:block;  
 	margin-bottom:15px;  
@@ -606,7 +606,7 @@ p.tabp{
 	border-radius:3px;  
 	-moz-border-radius:3px;  
 	-webkit-border-radius:3px;  
-}*/
+}
 @keyframes cssload-squaremini {
 	0%, 100% {
 		transform: translateZ(85px) rotateX(20deg) rotateY(-10deg) rotateZ(10deg);

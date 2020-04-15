@@ -50,6 +50,16 @@ jQuery(document).ready(function() {
       });
 });
 
+ jQuery(document).ready(function(){  
+  jQuery('.skillbar').each(function(){  
+    jQuery(this).appear(function() {  
+      jQuery(this).find('.skillbar-bar').animate({  
+        width:jQuery(this).attr('data-percent')  
+      },2000);  
+    });  
+  });  
+});
+
  $(".nav .nav-link").on("click", function(){
    $(".nav").find(".active").removeClass("active");
    $(this).addClass("active");
