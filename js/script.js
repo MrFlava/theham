@@ -64,7 +64,7 @@ $(function () {
     init: function () {
 
       $('#portfoliolist').mixitup({
-        targetSelector: '.portfolio',
+        targetSelector: '.portfolio-element',
         filterSelector: '.filter',
         effects: ['scale'],
         easing: 'smooth',

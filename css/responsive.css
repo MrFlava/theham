@@ -179,7 +179,7 @@
 	#filters li span{
 		padding: 15px 20px;
 	}
-	#portfoliolist .portfolio{
+	#portfoliolist .portfolio-element{
 		width: 33.33%
 	}
 	#portfolio h3{
@@ -321,7 +321,7 @@
 	#filters li span{
 		padding: 10px 20px;
 	}
-	#portfoliolist .portfolio{
+	#portfoliolist .portfolio-element{
 		width: 50%;
 	}
 	.imagehover{
@@ -500,7 +500,7 @@
 		text-align: left;
 		max-width: 90%;
 	}
-	#portfoliolist .portfolio{
+	#portfoliolist .portfolio-element{
 		width: 50%;
 	}
 	#portfolio h3{
@@ -635,9 +635,9 @@
 		height: auto;
 		display: block;
 	}
-/*	header{
+	header{
 		padding: 5px 0;
-	}*/
+	}
 	.nav-toggle {
 		top: 0;
 	}
@@ -708,7 +708,7 @@
 		text-align: left;
 		max-width: 90%;
 	}
-	#portfoliolist .portfolio{
+	#portfoliolist .portfolio-element{
 		width: 100%;
 	}
 	#filters li {    

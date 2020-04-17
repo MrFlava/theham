@@ -618,7 +618,7 @@ p.tabp{
 	border-bottom: 1px solid #e1e1e1;
 }
 
-.portfoliolist .portfolio {
+.portfoliolist .portfolio-element {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-o-box-sizing: border-box;
@@ -626,9 +626,27 @@ p.tabp{
 	width:25%;
 	float:left; 
 }
-.portfolio .portfolio img{
+.portfolio .portfolio-element img{
 	width: 100%;
 	display: block;
+}
+.imagehover{    
+	position: absolute;    
+	font-size: 22px;  
+	width: 100%;  
+	margin: 0 auto;
+	background: #fff; 
+	color: #fff;
+	border-top: 3px solid #18cfab;
+	bottom: 0;  
+	top: 0;
+	right: 0;
+	left: 0;
+	visibility: hidden; 
+	opacity: 0;    
+	transition: all 0.5s;
+	cursor: pointer;
+	padding: 40px 0;
 }
 .portfoliohover:hover .imagehover{
 	visibility: visible;
@@ -660,6 +678,14 @@ p.smallp{
 	line-height: 15px;
 	font-weight: normal;
 	color: #8a8a8a;
+}
+
+.portfolio h3{
+	font-size: 14px;
+	line-height: 25px;
+	color: #18cfab;
+	text-transform: uppercase;
+	padding: 30px 0 0;
 }
 .portfolio button.loadmore{
 	border-top: none;
