@@ -68,14 +68,14 @@ $(function () {
         filterSelector: '.filter',
         effects: ['scale'],
         easing: 'smooth',
-          // call the hover effect
+       
           onMixEnd: filterList.hoverEffect()
         });   
     },      
     hoverEffect: function () {
     }
   };
-    // Run the show!
+
     filterList.init();  
   }); 
 

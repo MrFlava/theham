@@ -677,7 +677,7 @@ p.smallp{
 	transition:all 0.5s; 
 }
 .filters {
-	margin:6%;
+	margin: 6% 6% 6% 20%;
 	padding:0;
 	list-style:none;
 	border: 1px solid #ebebeb;
