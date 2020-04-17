@@ -59,6 +59,26 @@ jQuery(document).ready(function() {
   });  
 });
 
+$(function () {   
+  var filterList = {
+    init: function () {
+
+      $('#portfoliolist').mixitup({
+        targetSelector: '.portfolio',
+        filterSelector: '.filter',
+        effects: ['scale'],
+        easing: 'smooth',
+          // call the hover effect
+          onMixEnd: filterList.hoverEffect()
+        });   
+    },      
+    hoverEffect: function () {
+    }
+  };
+    // Run the show!
+    filterList.init();  
+  }); 
+
  $(".nav .nav-link").on("click", function(){
    $(".nav").find(".active").removeClass("active");
    $(this).addClass("active");

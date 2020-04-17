@@ -1,3 +1,6 @@
+ol, ul {
+	list-style: none;
+}
 @font-face {
 	font-family: 'montserratlight';
 	src: url('../fonts/montserrat-light.woff2') format('woff2'),
@@ -338,7 +341,7 @@
 span.theme{
 	color: #18cfab;
 }
-.maincontent button,#portfolio button,aside button,#theme button{
+.maincontent button,.portfolio button,aside button,.theme button{
 	outline: 0;
 	border:none;
 	font-size: 13px;
@@ -354,7 +357,7 @@ span.theme{
 .maincontent button.purchase{
 	background-color: #00cbf6;
 }
-.maincontent button.explore:hover,aside button:hover,#theme button:hover{
+.maincontent button.explore:hover,aside button:hover,.theme button:hover{
 	background-color: #00cbf6;
 	transition:all 0.5s;
 }
@@ -404,11 +407,11 @@ span.theme{
 	color: #4e4e4e;
 	text-align: center;
 }
-.features img{
+.features img, .portfolio img{
 	margin: 0 auto;
 	display: block;
 }
-.features h2{
+.features h2, .portfolio h2{
 	font-size: 36px;
 	font-weight: 400;	
 	line-height: 40px;
@@ -606,6 +609,107 @@ p.tabp{
 	border-radius:3px;  
 	-moz-border-radius:3px;  
 	-webkit-border-radius:3px;  
+}
+
+.portfolio{
+	padding: 100px 0;
+	color: #4e4e4e;
+	text-align: center;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.portfoliolist .portfolio {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	display: none;
+	width:25%;
+	float:left; 
+}
+.portfolio .portfolio img{
+	width: 100%;
+	display: block;
+}
+.portfoliohover:hover .imagehover{
+	visibility: visible;
+	opacity: 1;
+}
+.portfoliohover{
+	position: relative;
+}
+.imagehover i{
+	color: #18cfab;
+	border: 1px solid #18cfab;
+	background-color: #fff;
+	font-size: 16px;
+	width: 42px;
+	height: 42px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0 2px;
+}
+.imagehover i:hover{
+	background-color: #18cfab;
+	color: #fff;
+	transition:all 0.5s; 
+}
+p.smallp{
+	font-family: 'montserratlight';
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: normal;
+	color: #8a8a8a;
+}
+.portfolio button.loadmore{
+	border-top: none;
+	border: 2px solid #18cfab;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 70px
+}
+.portfolio button.loadmore i{
+	margin-right: 10px;
+}
+.portfolio button.loadmore:hover{
+	background-color: #fff;
+	color: #18cfab;
+	transition:all 0.5s; 
+}
+.filters {
+	margin:6%;
+	padding:0;
+	list-style:none;
+	border: 1px solid #ebebeb;
+}
+
+.filters li {
+	float:left;
+	display: inline-block;
+}
+
+.filters li span {
+	display: inline-block;
+	padding: 15px 25px;
+	text-decoration:none;
+	color:#717171;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+	border-top: 2px solid rgba(0,0,0,0);
+	border-right: 1px solid #ebebeb;
+	/*margin: 0 5px;*/
+}
+.filters li span.active {
+	color: #18cfab;
+	border-top: 2px solid #18cfab;
+	transition: all 0.5s;
+} 
+.filters li span:hover{
+	color: #18cfab;
+	border-top: 2px solid #18cfab;
+	transition: all 0.5s;
 }
 @keyframes cssload-squaremini {
 	0%, 100% {
