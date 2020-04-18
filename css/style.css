@@ -341,7 +341,7 @@ ol, ul {
 span.theme{
 	color: #18cfab;
 }
-.maincontent button,.portfolio button,aside button,.theme button{
+.maincontent button,.portfolio button,.ready-ad button,.theme button{
 	outline: 0;
 	border:none;
 	font-size: 13px;
@@ -357,7 +357,7 @@ span.theme{
 .maincontent button.purchase{
 	background-color: #00cbf6;
 }
-.maincontent button.explore:hover,aside button:hover,.theme button:hover{
+.maincontent button.explore:hover,.ready-ad button:hover,.theme button:hover{
 	background-color: #00cbf6;
 	transition:all 0.5s;
 }
@@ -812,6 +812,26 @@ p.innerp{
 	line-height: 24px;
 	text-align: justify;;
 	margin-left: 15px;
+}
+.ready-ad{
+	background: #40474b url(../img/banner2.jpg) no-repeat center center;
+	padding: 120px 0;
+	text-align: center;
+	background-size:cover;
+}
+.ready-ad h3{
+	font-size: 40px;
+	line-height: 40px;
+	color: #18cfab;
+	text-transform: uppercase;
+}
+.ready-ad button{
+	margin-top: 70px;
+}
+.ready-ad p.innerp{
+	color: #d8d8d8;
+	font-size: 16px;
+	line-height: 30px;
 }
 @keyframes cssload-squaremini {
 	0%, 100% {
