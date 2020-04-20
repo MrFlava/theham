@@ -388,7 +388,7 @@ span.theme{
 	background-color: #1c2a33;
 	border-top: 7px solid #18cfab; 
 }
-.about-element div. h3{
+.about-element div h3{
 	text-transform: uppercase;
 	font-size: 20px;
 	padding-top: 45px;
@@ -402,16 +402,16 @@ span.theme{
 	opacity: 1;
 }*/
 
-.features, .service, .news{
+.features, .service, .news, .price{
 	padding: 100px 0;
 	color: #4e4e4e;
 	text-align: center;
 }
-.features img, .portfolio img, .service img, .news img{
+.features img, .portfolio img, .service img, .news img, .price img{
 	margin: 0 auto;
 	display: block;
 }
-.features h2, .portfolio h2, .service h2, .news h2{
+.features h2, .portfolio h2, .service h2, .news h2, .price h2{
 	font-size: 36px;
 	font-weight: 400;	
 	line-height: 40px;
@@ -865,6 +865,76 @@ p.innerp{
 	color: #18cfab;
 	transition:all 0.5s; 	
 }
+.price article{
+	width: 25%;
+	float: left;
+	border: 1px solid #eceeef;
+	border-radius:5px; 
+	margin-top: 65px;
+}
+.price article:nth-child(1),.price article:nth-child(2),.price article:nth-child(3){
+	border-right: 0;
+}
+.price h3{
+	font-size: 24px;
+	line-height: 39px;
+	color: #717171;
+	padding: 10px;
+}
+.price h4{
+	font-size: 39px;
+	color: #fff;
+	line-height: 55px;
+	padding-top: 5px;
+	background-color: #2e4a5b;
+	margin-bottom: 10px;
+}
+.price h4 span.month{
+	font-size: 14px;
+	font-family: 'montserratlight';
+	font-weight: normal;
+}
+.price p.smallp{
+	font-size: 14px;
+	line-height: 46px;
+	border-top: 1px solid #eceeef;
+}
+.price article p.smallp:nth-child(8){
+	border-bottom: 1px solid #eceeef;
+}
+.price button.bye{
+	font-size: 14px;
+	width: 170px;
+	height: 50px;
+	color: #fff;
+	background-color: #2e4a5b;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	margin: 23px 0;
+}
+.price article:hover {
+	cursor: pointer;
+	box-shadow: 2px 2px 10px 3px #C9C9C9;
+	-webkit-box-shadow: 2px 2px 10px 3px #C9C9C9;
+	-moz-box-shadow: 2px 2px 10px 3px #C9C9C9;
+	transition: all 0.5s;
+}
+.price article:hover h4,.price article:hover button.bye{
+	background-color: #18cfab;
+	transition: all 0.5s;
+}
+.price article:hover h3{
+	color: #18cfab;
+	transition: all 0.5s;
+}
+.offer img {
+	position: absolute;
+	right: 0;
+}
+.offer{
+	position: relative;
+}
+#
 @keyframes cssload-squaremini {
 	0%, 100% {
 		transform: translateZ(85px) rotateX(20deg) rotateY(-10deg) rotateZ(10deg);

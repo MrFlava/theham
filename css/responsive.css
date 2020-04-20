@@ -39,14 +39,14 @@
 	.maincontent p.headp {
 		font-size: 30px;
 	}
-	#about article h3{
+	.about div h3{
 		font-size: 16px;
 		padding-top: 20px;
 	}
-	#about article img {
+	.about div img {
 		margin-top: 50px;
 	}
-	#about article{
+	.about div{
 		min-height: 300px;
 	}
 	.skillbar{
@@ -163,14 +163,15 @@
 	.maincontent p.headp {
 		font-size: 25px;
 	}
-	#about article h3{
+	.about div h3{
 		font-size: 15px;
 		padding-top: 23px;
 	}
-	#about article{
+	.about div {
 		min-height: 300px;
 	}
-	#about article img {
+	}
+	.about div img {
 		margin-top: 65px;
 	}
 	.skillbar{
@@ -207,7 +208,7 @@
 		margin-top: 35px;
 	}
 	#price article{
-		width: 33.33%;
+		width: 23.33%;
 	}
 	#price article:nth-child(3) {
 		border-right:1px solid #eceeef;;
@@ -307,7 +308,7 @@
 	#banner .bx-wrapper .bx-controls-direction a {		
 		top: 77%;
 	}
-	#about article, #number article {
+	.about div, .numbers div {
 		width: 50%;
 	}
 	.innerabout{
@@ -470,15 +471,15 @@
 		height: 50px;
 		font-size: 12px;
 	}
-	#about article{
+	.about div{
 		width: 50%;
 		min-height: 270px;
 	}
-	#about article h3 {  
+	.about div h3 {  
 		font-size: 15px;
 		padding-top: 20px;
 	}
-	#about article img {
+	.about div img {
 		margin-top: 50px;
 	}
 	#features h2, #aboutcompany .innerabout h2, #portfolio h2, #service h2, #news h2, #price h2, #testimonial h2, #team h2, #contact h2 {
@@ -523,13 +524,13 @@
 	aside button {
 		margin-top: 40px;
 	}
-	#number article {
+	.numbers div {
 		width: 50%;
 	}
 	.circle{
 		margin: 30px auto 0;
 	}
-	#number article{
+	.numbers div{
 		min-height: 320px;
 	}
 	#testimonial .item {
@@ -672,15 +673,15 @@
 	.bx-wrapper .bx-next {
 		right: 10%;
 	}
-	#about article{
+	.about div{
 		width: 100%;
 		min-height: 200px;
 	}
-	#about article h3 {  
+	.about div h3 {  
 		font-size: 17px;
 		padding-top: 5px;
 	}
-	#about article img {
+	.about div img {
 		margin-top: 30px;
 	}
 	#features h2, #aboutcompany .innerabout h2, #portfolio h2, #service h2, #news h2, #price h2, #testimonial h2, #team h2, #contact h2 {
@@ -746,13 +747,13 @@
 	aside button {
 		margin-top: 20px;
 	}
-	#number article {
+	.numbers div {
 		width: 100%;
 	}
 	.circle{
 		margin: 30px auto 0;
 	}
-	#number article{
+	.numbers div{
 		min-height: 270px;
 	}
 	#testimonial .item {
@@ -891,7 +892,7 @@
 	#service .s-tab-content img{
 		width: 100%;
 	}
-	#number article i{
+	.numbers div i{
 		width: 80px;
 		height: 80px;
 		margin-top: 18px;
@@ -901,7 +902,7 @@
 		width: 120px;
 		height: 120px;
 	}
-	#number article h4 {		
+	.numbers div h4 {		
 		font-size: 30px;
 		line-height: 35px;	
 		padding-top: 40px;
