@@ -407,11 +407,11 @@ span.theme{
 	color: #4e4e4e;
 	text-align: center;
 }
-.features img, .portfolio img, .service img, .news img, .price img{
+.features img, .portfolio img, .service img, .news img, .price img, .testimonial img{
 	margin: 0 auto;
 	display: block;
 }
-.features h2, .portfolio h2, .service h2, .news h2, .price h2{
+.features h2, .portfolio h2, .service h2, .news h2, .price h2, .testimonial h2{
 	font-size: 36px;
 	font-weight: 400;	
 	line-height: 40px;
@@ -934,7 +934,77 @@ p.innerp{
 .offer{
 	position: relative;
 }
-#
+.testimonial{
+	padding: 100px 0;
+	background: #2e404d url(../img/testimonial.jpg) no-repeat center center;
+	text-align: center;
+	background-size:cover;
+	color: #fff;
+}
+.testimonial .item i{
+	color: #18cfab;
+	padding-bottom: 20px;
+}
+.testimonial .item{
+	padding: 60px 0 0;
+}
+.testimonial .item img{
+	margin-top: 25px;
+}
+.testimonial .item p,.testimonial .item span{
+	font-size: 16px;
+	line-height: 20px;
+	color: #bbbbbb;
+	font-weight: 400;
+}
+.testimonial .item span{
+	font-size: 13px;
+}
+.testimonial .item h5{
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 20px;
+	color: #18cfab;
+	font-weight: 400;
+	padding-top: 20px;
+}
+.testimonial .bx-wrapper .bx-prev {
+	left: 28%;
+	background: url(../img/left2.png) no-repeat;
+}
+.testimonial .bx-wrapper .bx-next {
+	right: 28%;
+	background: url(../img/right2.png) no-repeat;
+}
+.testimonial .bx-wrapper .bx-prev:hover{
+	background: url(../img/left2-hover.png) no-repeat;
+}
+.testimonial .bx-wrapper .bx-next:hover{
+	background: url(../img/right2-hover.png) no-repeat;
+}
+.testimonial .bx-wrapper .bx-controls-direction a{
+	top: 120%;
+	width: 31px;
+	height: 31px;
+}
+
+.testimonial .bx-pager{
+	margin-top: 50px;
+}
+.testimonial .bx-pager img{
+	width: 65px;
+	height: auto;
+	display: inline-block;
+	margin: 0 15px;
+}
+.testimonial a.active img {
+	width: 65px;
+	height: auto;
+	margin: 0;
+	top: -15px;
+	position: relative;
+	border-radius: 50%;
+}
 @keyframes cssload-squaremini {
 	0%, 100% {
 		transform: translateZ(85px) rotateX(20deg) rotateY(-10deg) rotateZ(10deg);
