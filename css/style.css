@@ -402,16 +402,16 @@ span.theme{
 	opacity: 1;
 }*/
 
-.features, .service, .news, .price{
+.features, .service, .news, .price, .team{
 	padding: 100px 0;
 	color: #4e4e4e;
 	text-align: center;
 }
-.features img, .portfolio img, .service img, .news img, .price img, .testimonial img{
+.features img, .portfolio img, .service img, .news img, .price img, .testimonial img, .team img{
 	margin: 0 auto;
 	display: block;
 }
-.features h2, .portfolio h2, .service h2, .news h2, .price h2, .testimonial h2{
+.features h2, .portfolio h2, .service h2, .news h2, .price h2, .testimonial h2, .team h2{
 	font-size: 36px;
 	font-weight: 400;	
 	line-height: 40px;
@@ -1004,6 +1004,89 @@ p.innerp{
 	top: -15px;
 	position: relative;
 	border-radius: 50%;
+}
+.imagdiv{
+	position: relative;
+}
+.imagehover-team{    
+	position: absolute;  
+	width: 100%;  
+	margin: 0 auto;
+	background: rgba(140,154,163,0.5); 
+	color: #fff;	
+	bottom: 0;  
+	top: 0;
+	right: 0;
+	left: 0;
+	visibility: hidden; 
+	opacity: 0;    
+	transition: all 0.5s;
+	cursor: pointer;
+	padding: 65px 0;
+}
+.imagehover-team i{
+	color: #18cfab;	
+	background-color: #fff;
+	width: 70px;
+	height: 70px;
+	line-height: 72px;
+	text-align: center;
+	border-radius: 50%;	
+	margin-top: 3px;
+}
+.team article img{
+	width: 100%;
+}
+.team article{
+	padding-top: 65px;
+	cursor: pointer;
+}
+.team article .innertesti{
+	text-align: left;
+	background-color: #2e4a5b;
+	color: #fff;
+	padding:15px 0 15px 15px;
+}
+.team article h4{
+	line-height: 25px;
+	color: #fff;
+}
+.team article p.innerp{
+	color: #18cfab;
+	padding: 0;
+}
+.team article .social i{
+	width: 25%;
+	float: left;
+	height: 65px;
+	background-color: #2e4a5b;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	text-align: center;
+	line-height: 65px;
+	color: #fff;
+}
+.team article .social i:nth-child(4){
+	border-right: 0;
+}
+.team article:hover .imagehover-team{
+	visibility: visible;
+	opacity: 1;
+}
+.team article:hover .innertesti,.team article:hover  .social i{
+	background-color: #18cfab;
+	transition: all 0.5s;
+}
+.team article:hover p.innerp{
+	color: #2e4a5b;
+	transition: all 0.5s;
+}
+.circle-team{
+	border: 2px solid #18cfab;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
 }
 @keyframes cssload-squaremini {
 	0%, 100% {
