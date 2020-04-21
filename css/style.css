@@ -1088,6 +1088,79 @@ p.innerp{
 	height: 80px;
 	margin: 0 auto;
 }
+.theme{
+	background: #233641 url(../img/theme.jpg) no-repeat center center;
+	text-align: center;
+	padding: 120px 0 25px;
+	width: 100%;
+	background-size:cover; 
+}
+.theme h3{
+	color: #fff;
+	font-size: 45px;
+	line-height: 55px;
+	text-transform: uppercase;
+}
+.theme h4{
+	color: #18cfab;
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 55px;
+	text-transform: uppercase;
+}
+.innertheme{
+	width: 90%;
+	float: left;
+}
+.theme img.laptop{
+	width: 100%;
+	display: block;
+	margin-top: 125px;
+}
+.theme h3{
+	color: #fff;
+	font-size: 45px;
+	line-height: 55px;
+	text-transform: uppercase;
+}
+.theme h4{
+	color: #18cfab;
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 55px;
+	text-transform: uppercase;
+}
+.theme ul{
+	padding-top: 100px;
+}
+.theme ul li{
+	text-align: left;	
+	font-family: 'montserratlight';
+	font-weight: normal;
+	margin: 5px 0;
+}
+.theme ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 35px;
+	color: #fff;
+}
+
+.theme ul li i{
+	background-color: #18cfab;
+	color: #233641;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border-radius: 50%;		
+	margin-right: 20px;
+}
+.theme button{
+	float: left;
+	margin: 0;
+	margin-top: 65px;
+}
 @keyframes cssload-squaremini {
 	0%, 100% {
 		transform: translateZ(85px) rotateX(20deg) rotateY(-10deg) rotateZ(10deg);
