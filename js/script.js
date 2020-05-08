@@ -3,6 +3,27 @@
 });
 jQuery(document).ready(function ($) {
 
+      $(window).scroll(function () {
+
+        if ($(this).scrollTop() > 600) {
+
+            $('.scrollup').fadeIn('slow');
+
+        } else {
+
+            $('.scrollup').fadeOut('slow');
+        }
+    });
+
+
+    $('.scrollup').click(function () {
+
+        $("html, body").animate({scrollTop: 0}, 1000);
+
+        return false;
+    });
+
+
     $('.navbar-collapse').find('a[href*=#]:not([href=#])').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);

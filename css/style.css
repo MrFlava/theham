@@ -1363,6 +1363,53 @@ span.datespan{
 	color: #fff;
 	transition: all 0.5s;
 }
+footer{
+	background-color: #22353f;
+	color: #aeaeae;
+	font-size: 14px;
+	font-family: 'montserratlight';
+	font-weight: normal;
+	text-align: center;
+	padding: 50px 0;
+}
+footer a{
+	text-decoration: none;
+	color: #aeaeae;
+}
+.scrollup{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    opacity: .3;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    z-index: 1000;
+    transition: opacity .5s, background-color .5s;
+    -moz-transition: opacity .5s, background-color .5s;
+    -webkit-transition: opacity .5s, background-color .5s;
+}
+
+.scrollup:hover {
+    background: #18CFAB;
+    opacity: 1;
+}
+
+.scrollup i {
+    font-size: 13px;
+    position: absolute;
+    opacity: 1;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-top: -7px;
+    margin-left: -6px;
+    text-decoration: none;
+
+}
 @keyframes cssload-squaremini {
 	0%, 100% {
 		transform: translateZ(85px) rotateX(20deg) rotateY(-10deg) rotateZ(10deg);
