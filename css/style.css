@@ -1232,6 +1232,137 @@ button.btnsubmit:hover{
 	color: #18cfab;
 	transition:all 0.5s;
 }
+.newsletter{
+	background-color: #1d2c33;
+	padding: 120px 0;
+}
+.newsletter p.innerp{
+	font-family: 'montserratlight';
+	font-weight: normal;	
+	font-size: 14px;
+	line-height: 24px;
+	color: #b2b2b2;
+	padding: 25px 0 70px;
+}
+.newsletter h6{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #ffff;	
+}
+.newsletter p.finnerp{
+	font-family: 'montserratlight';
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #b2b2b2;	
+}
+h6.ftop{
+	padding-top: 25px;
+}
+.newsletter h6 span.finnerp{
+	display: inline-block;
+	font-family: 'montserratlight';
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #b2b2b2;	
+}
+.newsletter h4{
+	font-size: 18px;
+	line-height: 26px;
+	padding-bottom: 15px;
+	color: #ffff;
+}
+.newsletter h5{
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #ffff;
+}
+.newsletter article.post,.newsletter div.tags{
+	padding: 30px 0 20px;
+	border-bottom: 1px solid #294453;
+}
+.newsletter article.post:last-child{
+	border: none;
+}
+.newsletter article.post p.innerp{
+	font-family: 'montserratlight';
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 25px;
+	color: #b2b2b2;	
+	padding: 0;
+}
+span.datespan{
+	font-family: 'montserratlight';
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 30px;
+	color: #f1f1f1;
+}
+.newsletter div.tags a{
+	text-decoration: none;
+	font-family: 'montserratlight';
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	display: inline-block;
+	color: #c2c0c0;	
+	text-align: center;
+	padding: 10px 0;
+	width: 70px;
+	height: 40px;
+	border: 1px solid #acacac;
+}
+.newsletter article.letter h4{
+	padding-top: 25px;
+}
+.newsletter article.letter p.innerp{
+	padding: 25px 0 10px;
+}
+.newsletter article.letter input{
+	background-color: #22353f;
+	border: 1px solid #22353f;
+	color: #fff;
+	width: 190px;
+	height: 40px;
+	outline: 0;
+	font-family: 'montserratlight';
+	font-weight: normal;
+	font-size: 14px;
+	padding-left: 10px;
+}
+.newsletter article.letter input:focus{
+	border:1px solid  #18cfab;
+}
+.newsletter article.letter button.btngo{
+	background-color: #294453;
+	border: 1px solid #294453;
+	color: #18cfab;
+	padding: 7px 10px;
+	outline: 0;
+	font-size: 14px;
+	margin-left: -4px;	
+}
+.newsletter article.letter button.btngo:hover{
+	border:1px solid  #18cfab;
+	transition:all 0.5s;
+}
+
+.newsletter article.post:hover h5,footer a:hover{
+	color: #18cfab;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.newsletter div.tags a:hover{
+	border: 1px solid #18cfab;
+	background-color: #18cfab;
+	color: #fff;
+	transition: all 0.5s;
+}
 @keyframes cssload-squaremini {
 	0%, 100% {
 		transform: translateZ(85px) rotateX(20deg) rotateY(-10deg) rotateZ(10deg);
